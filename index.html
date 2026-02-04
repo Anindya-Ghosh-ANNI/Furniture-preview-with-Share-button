@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="min-h-screen bg-blue-100 flex justify-center items-center">
+  <main class="bg-white w-80 my-15 sm:grid sm:grid-cols-[1fr_2fr] sm:w-140 rounded-xl overflow-hidden sm:overflow-visible">
+    <img src="images/drawers.jpg" class="w-full h-50 sm:h-full sm:rounded-l-xl" alt="">
+
+    <div class="m-6 flex flex-col gap-4 sm:gap-1 sm:m-3">
+      <h1 class="font-bold text-slate-600">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+
+      <p class="font-medium text-slate-400 text-sm">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I have got some simple tips to help you make any room feel complete.</p>
+
+      <!-- Author info -->
+      <div id="author_box" class="">
+        <div class="grid grid-cols-[50px_1fr_50px] grid-rows-2 gap-x-3 mt-2">  
+  
+          <img src="images/avatar-michelle.jpg" class="rounded-full col-start-1 col-end-2 row-start-1 row-end-3" alt="">
+          <span class="text-slate-700 font-semibold col-start-2 col-end-3 row-start-1 row-end-2">Michelle Appleton</span>
+          <span class="text-sm text-slate-400">28 June 2020</span>
+        
+          <div class="col-start-3 col-end-4 row-start-1 row-end-3 flex items-center justify-center">
+            
+            <button onclick="toggleshare()" class="bg-blue-100 rounded-full flex justify-center items-center h-8 w-8 hover:border active:bg-blue-700 active:border-0 group relative">
+
+              <img src="images/icon-share.svg" class="size-4 group-active:invert group-active:brightness-0" alt="">
+
+              <div id="sm_share_box" class="hidden">
+                <div class="absolute bottom-14 -left-23 bg-gray-600 flex w-50 justify-between items-center py-2 px-5 rounded-lg">
+                  <span class="tracking-widest text-gray-400 text-sm mr-2">SHARE</span>
+                  <img src="images/icon-facebook.svg" class="sm:size-4" alt="">
+                  <img src="images/icon-twitter.svg" class="sm:size-4" alt="">
+                  <img src="images/icon-pinterest.svg" class="sm:size-4" alt="">
+
+                  <div class="absolute -bottom-2 left-1/2 w-4 h-4 bg-gray-600 rotate-45"></div>
+                </div>
+              </div>
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Share box -->
+    <div id="share_box" class="hidden">
+      <div class="bg-gray-600 flex items-center justify-between px-7 h-15">
+  
+        <div class="flex w-40 justify-between items-center">
+          <span class="tracking-widest text-gray-400 mr-2">SHARE</span>
+          <img src="images/icon-facebook.svg" alt="">
+          <img src="images/icon-twitter.svg" alt="">
+          <img src="images/icon-pinterest.svg" alt="">
+        </div>
+  
+        <button onclick="toggleshare()" class="bg-gray-500 rounded-full flex justify-center items-center h-7 w-7 hover:bg-gray-800">
+          <img src="images/icon-share.svg" class="size-4 invert brightness-0" alt="">
+        </button>
+      </div>
+    </div>
+    
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
