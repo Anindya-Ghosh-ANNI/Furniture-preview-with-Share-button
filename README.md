@@ -27,8 +27,8 @@ reenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Anindya-Ghosh-ANNI/Furniture-preview-with-Share-button
+- Live Site URL: https://anindya-ghosh-anni.github.io/Furniture-preview-with-Share-button/
 
 ## My process
 
